@@ -21,6 +21,7 @@ export default function Home({
   travelVideos,
   popularVideos,
 }) {
+
   return (
     <div className={styles.container}>
       <Head>
@@ -32,6 +33,7 @@ export default function Home({
       <div className={styles.main}>
         <NavBar username="Ganesh" />
         <Banner
+          videoId="4zH5iYM4wJo"
           title="Clifford the red dog"
           subTitle="a very cute dog"
           imgUrl="/static/clifford.webp"
