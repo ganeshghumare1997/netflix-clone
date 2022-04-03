@@ -70,9 +70,6 @@ const NavBar = () => {
           <li className={styles.navItem} onClick={handleOnClickHome}>
             Home
           </li>
-          <li className={styles.navItem2} onClick={handleOnClickMyList}>
-            My List
-          </li>
         </ul>
         <nav className={styles.navContainer}>
           <div>

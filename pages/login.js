@@ -37,7 +37,6 @@ const Login = () => {
           if (didToken) {
             router.push("/");
           }
-          console.log(didToken);
         } catch (error) {
           setIsLoading(false);
           // Handle errors if required!
